@@ -1,0 +1,121 @@
+.tbody {
+    position: relative;
+    top: 20px;
+    left: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 260px;
+    height: 430px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+
+.buttonse {
+    display: flex;
+    left: 200px;
+
+
+}
+
+.btn-btn-danger2 {
+
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: brown;
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: #ffff;
+    transition: all 1s ease;
+}
+
+.btn-btn-danger2:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btn-btn-info2 {
+
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: #ffff;
+    transition: 1s ease all;
+}
+
+.btn-btn-info2:hover {
+    background-color: rgb(29, 255, 210);
+    color: #fff;
+
+}
+
+
+.container {
+    position: relative;
+    top: 50px;
+    right: 73px;
+    width: 1020px;
+}
+
+.tbody {
+    display: flex;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+/* 2 */
+
+.mein-card img {
+    width: 100px;
+    height: 200px;
+    margin-left: 60px;
+    border-radius: 20px;
+
+}
+
+.mein-card {
+    width: 300px;
+
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.mein-name {
+    color: #fff;
+    padding-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mein-text {
+    color: #fff;
+    padding-top: 8px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* 3 */
